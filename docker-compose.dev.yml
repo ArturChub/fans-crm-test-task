@@ -1,0 +1,12 @@
+
+name: fans-crm-test-task
+
+services:
+  db:
+    container_name: fans-crm-db
+    image: mysql:9.0
+    restart: always
+    env_file:
+      - './server/database.env'
+    ports:
+      - '3306:3306'

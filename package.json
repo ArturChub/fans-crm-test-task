@@ -1,0 +1,17 @@
+{
+  "name": "fans-crm-test-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Artur Chubukliiev <artur.it2914@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start:server": "cd ./server && yarn start",
+    "demo": "node ./demo.js"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "axios": "^1.7.4",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
